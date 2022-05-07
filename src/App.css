@@ -1,6 +1,10 @@
 .App {
   max-width: 860px;
   margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 button {
@@ -12,6 +16,7 @@ button {
   font-weight: bold;
   font-size: 1em;
   color: #fff;
+  margin-bottom: 1em;
   transition: 0.2s;
 }
 
@@ -21,4 +26,12 @@ button:hover {
 
 button:active {
   transform: scale(0.98);
+}
+
+.card-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  
 }
