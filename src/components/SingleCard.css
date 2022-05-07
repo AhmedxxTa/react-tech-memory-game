@@ -1,0 +1,30 @@
+.card {
+  position: relative;
+}
+
+.card img {
+  display: block;
+  width: 140px;
+  height: 140px;
+  cursor: pointer;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 6px;
+  transition: 0.1s;
+}
+
+.card img:hover {
+  border: 2px solid rgba(255, 255, 255, 1);
+}
+
+.card img:active {
+  transform: scale(0.98);
+}
+
+.card .front {
+  transform: rotateY(90deg);
+  position: absolute;
+}
+
+.flipped .front {
+  transform: rotateY(0deg);
+}
