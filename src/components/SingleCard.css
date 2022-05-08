@@ -22,9 +22,21 @@
 
 .card .front {
   transform: rotateY(90deg);
+  transition: 0.1s all ease-in;
   position: absolute;
 }
 
 .flipped .front {
   transform: rotateY(0deg);
+  transition-delay: 0.1s;
+}
+
+.card .back {
+  transition: 0.1s all ease-in;
+  transition-delay: 0.1s;
+}
+
+.flipped .back {
+  transform: rotateY(90deg);
+  transition-delay: 0s;
 }
