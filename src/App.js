@@ -1,14 +1,20 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import SingleCard from "./components/SingleCard";
+import angularImg from "./img/angular-1.png";
+import csharpImg from "./img/csharp-1.png";
+import cssImg from "./img/css-1.png";
+import htmlImg from "./img/html-1.png";
+import reactImg from "./img/react-1.png";
+import tailwindImg from "./img/tailwind-1.png";
 
 const cardImages = [
-  { src: "img/angular-1.png", matched: false },
-  { src: "img/csharp-1.png", matched: false },
-  { src: "img/css-1.png", matched: false },
-  { src: "img/html-1.png", matched: false },
-  { src: "img/react-1.png", matched: false },
-  { src: "img/tailwind-1.png", matched: false },
+  { src: `${angularImg}`, matched: false },
+  { src: `${csharpImg}`, matched: false },
+  { src: `${cssImg}`, matched: false },
+  { src: `${htmlImg}`, matched: false },
+  { src: `${reactImg}`, matched: false },
+  { src: `${tailwindImg}`, matched: false },
 ];
 
 function App() {
@@ -53,8 +59,6 @@ function App() {
       }
     }
   }, [choiceOne, choiceTwo]);
-
-  console.log(cards);
 
   const resetTurn = () => {
     setChoiceOne(null);
