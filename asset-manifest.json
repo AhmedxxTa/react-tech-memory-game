@@ -1,13 +1,17 @@
 {
   "files": {
     "main.css": "/react-tech-memory-game/static/css/main.7bee760c.css",
-    "main.js": "/react-tech-memory-game/static/js/main.16a7cd1c.js",
+    "main.js": "/react-tech-memory-game/static/js/main.fba82d5e.js",
+    "static/media/html-1.png": "/react-tech-memory-game/static/media/html-1.0ec7f74b0bea28e79aaf.png",
+    "static/media/tailwind-1.png": "/react-tech-memory-game/static/media/tailwind-1.a8c73f0dcf0827ae1cc5.png",
+    "static/media/react-1.png": "/react-tech-memory-game/static/media/react-1.6f3af24dd7efd3296e08.png",
+    "static/media/css-1.png": "/react-tech-memory-game/static/media/css-1.ce6c7fda4b66d0d40b6f.png",
     "index.html": "/react-tech-memory-game/index.html",
     "main.7bee760c.css.map": "/react-tech-memory-game/static/css/main.7bee760c.css.map",
-    "main.16a7cd1c.js.map": "/react-tech-memory-game/static/js/main.16a7cd1c.js.map"
+    "main.fba82d5e.js.map": "/react-tech-memory-game/static/js/main.fba82d5e.js.map"
   },
   "entrypoints": [
     "static/css/main.7bee760c.css",
-    "static/js/main.16a7cd1c.js"
+    "static/js/main.fba82d5e.js"
   ]
 }
