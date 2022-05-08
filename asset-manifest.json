@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-tech-memory-game/static/css/main.7bee760c.css",
+    "main.js": "/react-tech-memory-game/static/js/main.16a7cd1c.js",
+    "index.html": "/react-tech-memory-game/index.html",
+    "main.7bee760c.css.map": "/react-tech-memory-game/static/css/main.7bee760c.css.map",
+    "main.16a7cd1c.js.map": "/react-tech-memory-game/static/js/main.16a7cd1c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7bee760c.css",
+    "static/js/main.16a7cd1c.js"
+  ]
+}
